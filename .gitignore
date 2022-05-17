@@ -105,3 +105,6 @@ dist
 
 # Prueba Basica JS
 pruebas/
+
+# vscode
+.vscode
