@@ -9,7 +9,7 @@
 }
 body {
   width: 100%;
-  height: 100vr;
+  height: 100vh;
   font-family: "Handlee", cursive;
   background-image: linear-gradient(turquoise, pink);
 }
