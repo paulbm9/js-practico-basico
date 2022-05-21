@@ -9,10 +9,12 @@
   --md: 16px;
   --lg: 18px;
 }
+
 body {
   margin: 0;
   font-family: "Quicksand", sans-serif;
 }
+
 .container {
   width: 100%;
   height: 100vh;
@@ -20,34 +22,41 @@ body {
   place-items: center;
   align-content: flex-start;
 }
+
 header {
   display: flex;
   flex-direction: column;
 }
+
 section {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 800px;
 }
+
 .form {
   display: flex;
   flex-direction: column;
 }
+
 .form div {
   display: flex;
   flex-direction: column;
 }
+
 label {
   font-size: var(--md);
   font-weight: bold;
   margin-bottom: 4px;
 }
+
 input {
   font-size: var(--sm);
   font-weight: bold;
   margin-bottom: 20px;
   height: 30px;
 }
+
 button {
   background-color: var(--dark);
   border-radius: 8px;
@@ -59,15 +68,17 @@ button {
   font-weight: bold;
   height: 50px;
 }
+
 @media (max-width: 410px) {
   header,
   section {
     width: 70%;
   }
 }
+
 @media (max-width: 1000px) {
-    header,
-    section {
-      width: 80%;
-    }
+  header,
+  section {
+    width: 80%;
   }
+}
