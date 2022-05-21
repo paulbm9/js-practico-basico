@@ -2,7 +2,7 @@
 // const descuento = 18;
 //anadiendo cupones en la website.
 // const cupon = "treinta";
-var cupones = { treinta: 30, navidadya: 50, top40: 40 };
+var cupones = { treinta: 30, navidadya: 50, top40: 40, JuanDC_es_Batman: 15 };
 
 function calcularPrecioConDescuento(precio, descuento) {
   const porcentajePrecioConDescuento = 100 - descuento;
@@ -25,7 +25,6 @@ function calcularDescuentoCupon() {
   for (var c in cupones) {
     if (cuponValue === c) {
       descuento = cupones[c];
-      console.log(descuento);
     }
   }
   return descuento;
