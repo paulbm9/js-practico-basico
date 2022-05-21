@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promedio</title>
-</head>
-<body>
-    <h1>Promedio</h1>
-    
+    <link rel="stylesheet" href="./descuentos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Promedio</h1>
+        <p>Este es el tercer taller del Curso Practico de JavaScript</p>
+      </header>
+      <section>
+        <h2>Calcula el promedio</h2>
+        <form action="" class="form">
+          <div>
+            <label for="input-num1">Escriba el primer numero</label>
+            <input id="input-num1" type="number" />
+            <label for="input-num2">Escriba el segundo numero</label>
+            <input id="input-num2" type="number" />
+            <label for="input-num3">Escriba el tercer numero</label>
+            <input id="input-num3" type="number" />
+            <label for="input-num4">Escriba el cuarto numero</label>
+            <input id="input-num4" type="number" />
+            <button type="button" onclick="onClickButtonMediaAritmetica()">
+              Calcular promedio
+            </button>
+            <p id="ResultP"></p>
+          </div>
+        </form>
+      </section>
+    </div>
     <script src="./promedio.js"></script>
-</body>
+  </body>
 </html>
